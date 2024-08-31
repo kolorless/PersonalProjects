@@ -1,4 +1,4 @@
-# PersonalProjects
+# Ticket Finder
 
 I have done a few personal projects so far through my journey, this is one of them. I have only uploaded one based on how good the progress is since I do not want to upload a premature project
 
