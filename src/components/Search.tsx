@@ -57,13 +57,13 @@ export default function Search() {
     const locURL =
       "https://maps.googleapis.com/maps/api/geocode/json?address=" +
       newLocation +
-      "&key=AIzaSyCdkwOuZ9lnc8r4-NeCLuebFGhWL56Fv4A";
+      "&key=apikey";
 
     //Fetching the auto detect location using IPINFO API
     if (newChecked) {
       try {
         const response = await axios.get(
-          "https://ipinfo.io/json?token=d0ce80eac5f779"
+          "https://ipinfo.io/json?token=token"
         );
         const jsonResponse = response.data;
         setLoc(jsonResponse.loc);
