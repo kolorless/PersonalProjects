@@ -1,0 +1,25 @@
+.search{
+    position: relative;
+    color: white;
+    top: 20px;
+    right: -430px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    &:hover{
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}
+
+.favorites{
+    position: relative;
+    color: white;
+    top: 20px;
+    right: -470px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    &:hover{
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}

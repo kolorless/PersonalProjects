@@ -1,0 +1,51 @@
+*{
+    font-size: 10;
+    font-family: "Cambria";
+    justify-content: center;
+}
+
+table{
+    height:500px;
+    font-size: small;
+    max-height: 100%;
+    display:block;
+    background-color: #333;
+    color: grey;
+    position:relative;
+    top: 350px;
+    left: 250px;
+    overflow-y:scroll;
+    table-layout: fixed;
+    border-radius: 2%;
+    opacity:90%;
+}
+
+tr{
+    color:white;
+    height: auto;
+}
+
+th,td{
+    text-align: center;
+    justify-content: center;
+}
+
+.table-container {
+    height: 100%;
+    width: fit-content;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+}
+
+.hidden{
+    display: none;
+}

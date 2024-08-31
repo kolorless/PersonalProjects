@@ -1,0 +1,87 @@
+*{
+    font-family:"Cambria";
+    font-size:10;
+}
+
+
+.header{
+    color: white;
+    position:relative;
+    top: 170px;
+    right: 0px;
+}
+
+.submit{
+    background-color: red;
+    font-family: "Arial";
+    color: #ffffff;
+    padding: 5px 5px;
+    border: 0;
+    position: relative;
+    top:300px;
+    right: 30px;
+    border-radius: 5px;
+    &:hover{
+        background-color: darkred;
+    }
+}
+
+.clear{
+    background-color: blue;
+    font-family: "Arial";
+    color: white;
+    padding: 5px 5px;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    top: 300px;
+    right: -30px;
+    &:hover{
+        background-color: darkblue;
+    }
+
+}
+
+.checkbox{
+    position: relative;
+    color: white;
+    top:270px;
+    right: 90px;
+    line-height: normal;
+}
+
+.location{
+    position:relative;
+    color:white;
+    top: 245px;
+    right:110px;
+    padding: 0px 16px;
+    line-height: normal;
+}
+
+.category{
+    position:relative;
+    color:white;
+    top: 215px;
+    right: -200px;
+}
+
+.distance{
+    position:relative;
+    color:white;
+    top: 230px;
+    right: 130px;
+    line-height: normal;
+}
+
+.keyword{
+    position:relative;
+    color:white;
+    top: 190px;
+    right: 110px;
+    line-height: normal;
+}
+
+.table-hover tbody tr:hover td{
+    background-color: gray;
+}
