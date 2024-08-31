@@ -19,7 +19,7 @@ def event_search(request):
 
     geocode = geohash.encode(lat, long, 7)
 
-    baseURL = "https://app.ticketmaster.com/discovery/v2/events.json?apikey=HGpAnhVAh04r8u57F9hpuVFAbwgU3CpT&keyword={}&segmentId={}&radius={}&unit=miles&geoPoint={}".format(
+    baseURL = "https://app.ticketmaster.com/discovery/v2/events.json?apikey=apikey&keyword={}&segmentId={}&radius={}&unit=miles&geoPoint={}".format(
     keyword, segmentID, radius, geocode)
     response = requests.get(baseURL).json()
 
