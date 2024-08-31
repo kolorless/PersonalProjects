@@ -5,8 +5,6 @@ import requests, json
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.decorators import api_view
 
-# APIKEY = "HGpAnhVAh04r8u57F9hpuVFAbwgU3CpT"
-
 @csrf_exempt
 @api_view(["POST"])
 def event_search(request):
