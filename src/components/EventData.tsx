@@ -25,7 +25,7 @@ export default function EventData({ events, index, backClick }: Props) {
   const [map, setMap] = useState(false);
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyCdkwOuZ9lnc8r4-NeCLuebFGhWL56Fv4A",
+    googleMapsApiKey: APIKEY,
   });
 
   function onTab(tab: string) {
